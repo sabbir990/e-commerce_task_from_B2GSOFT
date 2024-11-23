@@ -95,16 +95,27 @@ const Navbar = () => {
                             </a>
                         </div>
 
-                        <div className="flex-col justify-center mt-6 lg:flex lg:mt-0 lg:-mx-2 space-x-4 items-center">
-                            <div className="flex items-center space-x-3 bg-white lg:px-2 rounded-lg">
-                                <span><IoIosSearch size={20} /></span>
-                                <input type="text" placeholder="search" className="outline-none p-2 rounded-lg" />
+                        <div className="flex items-center space-x-4 mt-6 lg:mt-0 lg:-mx-2">
+                            {/* Search Bar */}
+                            <div className="flex items-center space-x-3 bg-white px-2 rounded-lg flex-shrink-0">
+                                <span>
+                                    <IoIosSearch size={20} />
+                                </span>
+                                <input
+                                    type="text"
+                                    placeholder="search"
+                                    className="outline-none p-2 rounded-lg flex-grow"
+                                />
                             </div>
-                            <button className="btn btn-ghost border lg:mt-0 mt-4 border-green-500 rounded-lg"><FaShoppingCart size={24} color="gray" />
+
+                            {/* Cart Button */}
+                            <button className="btn btn-ghost border border-green-500 rounded-lg flex-shrink-0">
+                                <FaShoppingCart size={24} color="gray" />
                                 <div className="badge badge-ghost text-sm">0</div>
                             </button>
 
-                            <button className="btn btn-ghost ">
+                            {/* User Button */}
+                            <button className="btn btn-ghost flex-shrink-0">
                                 <FaRegUser size={24} color="gray" />
                             </button>
                         </div>
