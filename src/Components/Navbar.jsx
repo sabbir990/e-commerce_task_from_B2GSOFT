@@ -11,7 +11,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <nav className="shadow dark:bg-gray-800 bg-[#F5F3FF] px-8 text-sm">
+        <nav className="shadow dark:bg-gray-800 bg-[#F5F3FF] lg:px-8 px-4 text-sm">
             <div className="container px-6 py-4 mx-auto">
                 <div className="lg:flex lg:items-center lg:space-x-40">
                     <div className="flex items-center justify-between">
@@ -95,12 +95,12 @@ const Navbar = () => {
                             </a>
                         </div>
 
-                        <div className="flex justify-center mt-6 lg:flex lg:mt-0 lg:-mx-2 space-x-4 items-center">
-                            <div className="flex items-center space-x-3 bg-white px-2 rounded-lg">
+                        <div className="flex-col justify-center mt-6 lg:flex lg:mt-0 lg:-mx-2 space-x-4 items-center">
+                            <div className="flex items-center space-x-3 bg-white lg:px-2 rounded-lg">
                                 <span><IoIosSearch size={20} /></span>
                                 <input type="text" placeholder="search" className="outline-none p-2 rounded-lg" />
                             </div>
-                            <button className="btn btn-ghost border border-green-500 rounded-lg"><FaShoppingCart size={24} color="gray" />
+                            <button className="btn btn-ghost border lg:mt-0 mt-4 border-green-500 rounded-lg"><FaShoppingCart size={24} color="gray" />
                                 <div className="badge badge-ghost text-sm">0</div>
                             </button>
 
