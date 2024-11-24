@@ -31,7 +31,7 @@ export default function Featured_products_section() {
         }
     }
     return (
-        <div className='mt-12 px-8'>
+        <div className='mt-12 lg:px-8 px-4'>
             <div className='flex items-center justify-between'>
                 <div>
                     <p className='text-purple-500 text-sm'>FEATURED PRODUCTS</p>
@@ -48,7 +48,7 @@ export default function Featured_products_section() {
                         return <Product_card product={product} key={index} />
                     })
                 ) : (
-                    <p>No Products Available</p>
+                    <p className='text-center'>No Products Available</p>
                 )}
             </div>
             <div className='flex justify-center mt-3'>
