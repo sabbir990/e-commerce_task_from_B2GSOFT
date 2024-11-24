@@ -1,0 +1,145 @@
+{
+    "products": [
+      {
+        "id": "1",
+        "tag": "New Arrival",
+        "productName": "Floral Summer Dress",
+        "reviews": [
+          { "user": "Alice Brown", "rating": 4.8, "comment": "Perfect for summer! Light and comfortable fabric." },
+          { "user": "Sophia White", "rating": 4.5, "comment": "The design is lovely, but it's a bit tight around the waist." }
+        ],
+        "averageRating": 4.65,
+        "price": 39.99,
+        "availableSizes": ["S", "M", "L", "XL"],
+        "availableColors": ["Red", "Blue", "Yellow"],
+        "images": ["https://img.freepik.com/free-photo/portrait-asian-woman-yellow-summer-dress-stands-with-plumeria-thai-flower-hair-round-earrings_343596-2151.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid", "https://img.freepik.com/free-photo/portrait-happy-asian-smiling-woman-yellow-summer-dress-hold-pineapple_343596-1874.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid", "https://img.freepik.com/free-photo/portrait-asian-woman-yellow-summer-dress-stands-with-plumeria-thai-flower-hair-round-earrings_343596-2131.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid"]
+      },
+      {
+        "id": "2",
+        "tag": "Best Seller",
+        "productName": "Elegant Evening Gown",
+        "reviews": [
+          { "user": "Emily Johnson", "rating": 5.0, "comment": "Absolutely stunning! I felt like a queen wearing this." },
+          { "user": "Grace Lee", "rating": 4.7, "comment": "Beautiful gown, fits perfectly!" }
+        ],
+        "averageRating": 4.85,
+        "price": 149.99,
+        "availableSizes": ["M", "L", "XL"],
+        "availableColors": ["Black", "Navy Blue", "Emerald Green"],
+        "images": ["https://img.freepik.com/free-photo/bride-wedding-dress_144627-29502.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid", "https://img.freepik.com/free-photo/beautiful-bride-white-wedding-dress_144627-41221.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid", "https://img.freepik.com/free-photo/bride-wedding-dress_144627-29504.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid"]
+      },
+      {
+        "id": "3",
+        "tag": "Sale",
+        "productName": "Casual Denim Dress",
+        "reviews": [
+          { "user": "Olivia Smith", "rating": 4.2, "comment": "Great value for money! The denim is soft and stretchy." },
+          { "user": "Ava Taylor", "rating": 4.0, "comment": "Looks great, but the color faded slightly after washing." }
+        ],
+        "averageRating": 4.1,
+        "price": 29.99,
+        "availableSizes": ["S", "M", "L"],
+        "availableColors": ["Light Blue", "Dark Blue"],
+        "images": ["https://img.freepik.com/free-photo/talking-pleasant-technology-summer-life-shore_1303-2995.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid", "https://img.freepik.com/free-photo/girl-with-phone_1303-3615.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid", "https://img.freepik.com/free-photo/park-walking-talking-fancy-flirty-success_1303-2994.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid"]
+      },
+      {
+        "id": "4",
+        "tag": "Limited Edition",
+        "productName": "Boho Maxi Dress",
+        "reviews": [
+          { "user": "Mia Williams", "rating": 4.9, "comment": "Love the design and the flowy material. Perfect for vacations!" },
+          { "user": "Charlotte Brown", "rating": 4.6, "comment": "Fits like a dream. The print is so unique!" }
+        ],
+        "averageRating": 4.75,
+        "price": 59.99,
+        "availableSizes": ["XS", "S", "M", "L"],
+        "availableColors": ["White", "Beige", "Pastel Pink"],
+        "images": ["https://img.freepik.com/free-photo/front-view-bohemian-woman-posing-field-with-ukulele_23-2148522792.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid", "https://img.freepik.com/free-photo/low-angle-bohemian-woman-posing_23-2148522801.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid"]
+      },
+      {
+        "id": "5",
+        "tag": "New Arrival",
+        "productName": "Chic Office Dress",
+        "reviews": [
+          { "user": "Harper Jones", "rating": 4.4, "comment": "Elegant and comfortable for office wear." },
+          { "user": "Isabella Moore", "rating": 4.7, "comment": "Great fit and material quality!" }
+        ],
+        "averageRating": 4.55,
+        "price": 49.99,
+        "availableSizes": ["S", "M", "L", "XL", "XXL"],
+        "availableColors": ["Gray", "Black", "Navy"],
+        "images": ["https://img.freepik.com/free-photo/young-business-woman-dressed-blue-suit_1303-23979.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid", "https://img.freepik.com/free-photo/young-business-woman-dressed-blue-suit_1303-23963.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid", "https://img.freepik.com/free-photo/young-business-woman-walking-down-stairs_1303-23951.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid"]
+      },
+      {
+        "id": "6",
+        "tag": "Hot Deal",
+        "productName": "Party Sequin Dress",
+        "reviews": [
+          { "user": "Liam King", "rating": 4.9, "comment": "The sparkles are amazing. Perfect for a night out!" },
+          { "user": "Ella Adams", "rating": 4.6, "comment": "Fits great, but a bit heavy." }
+        ],
+        "averageRating": 4.75,
+        "price": 99.99,
+        "availableSizes": ["M", "L"],
+        "availableColors": ["Gold", "Silver", "Rose Gold"],
+        "images": ["https://img.freepik.com/free-photo/beautiful-young-woman-wearing-party-dress_23-2148331875.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid", "https://img.freepik.com/free-photo/front-view-medium-shot-girl-beautiful-party-dress_23-2148331882.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid"]
+      },
+      {
+        "id": "7",
+        "tag": "Exclusive",
+        "productName": "Vintage Polka Dot Dress",
+        "reviews": [
+          { "user": "Amelia Wilson", "rating": 4.3, "comment": "Cute and retro. Brings back the 60s vibes." },
+          { "user": "Scarlett Thomas", "rating": 4.1, "comment": "The fit is good, but the fabric is a bit stiff." }
+        ],
+        "averageRating": 4.2,
+        "price": 35.99,
+        "availableSizes": ["XS", "S", "M", "L"],
+        "availableColors": ["Red with White Dots", "Black with White Dots"],
+        "images": ["https://img.freepik.com/free-photo/young-female-red-polka-dot-dress-posing-yellow_140725-45052.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid", "https://img.freepik.com/free-photo/young-female-red-polka-dot-dress-posing-yellow_140725-45063.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid", "https://img.freepik.com/free-photo/young-female-red-polka-dot-dress-posing-yellow_140725-45035.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid"]
+      },
+      {
+        "id": "8",
+        "tag": "Trending",
+        "productName": "Knitted Bodycon Dress",
+        "reviews": [
+          { "user": "Aria Taylor", "rating": 4.7, "comment": "Hugs the body perfectly. Very stylish." },
+          { "user": "Lucy Martinez", "rating": 4.5, "comment": "Warm and fits great!" }
+        ],
+        "averageRating": 4.6,
+        "price": 45.99,
+        "availableSizes": ["S", "M", "L"],
+        "availableColors": ["Black", "Wine Red", "Beige"],
+        "images": ["https://img.freepik.com/free-photo/beautiful-girl-street_1157-4758.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid", "https://img.freepik.com/free-photo/thoughtful-business-woman-isolated-white-background_1212-716.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid"]
+      },
+      {
+        "id": "9",
+        "tag": "Sale",
+        "productName": "Elegant Lace Dress",
+        "reviews": [
+          { "user": "Sofia Lewis", "rating": 4.8, "comment": "The lace is delicate and beautiful!" },
+          { "user": "Zoey Hall", "rating": 4.5, "comment": "Fits well, but needs careful washing." }
+        ],
+        "averageRating": 4.65,
+        "price": 54.99,
+        "availableSizes": ["S", "M", "L", "XL"],
+        "availableColors": ["White", "Lavender", "Peach"],
+        "images": ["https://img.freepik.com/free-photo/serious-snow-queen-ice-queen-swing_329181-6506.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid", "https://img.freepik.com/free-photo/portrait-cute-brunette-bosnian-girl-blue-tight-lace-dress-standing-outside-park_181624-50977.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid"]
+      },
+      {
+        "id": "10",
+        "tag": "New Arrival",
+        "productName": "Wrap Midi Dress",
+        "reviews": [
+          { "user": "Ella Harris", "rating": 4.9, "comment": "Flattering fit and soft fabric." },
+          { "user": "Mila Robinson", "rating": 4.6, "comment": "Great dress, perfect for brunches." }
+        ],
+        "averageRating": 4.75,
+        "price": 44.99,
+        "availableSizes": ["XS", "S", "M", "L"],
+        "availableColors": ["Sky Blue", "Blush Pink", "Light Green"],
+        "images": ["https://img.freepik.com/free-photo/young-stylish-beautiful-woman-blue-dress-summer-fashion-trend-vacation-garden-tropical-hotel-terrace-smiling_285396-3858.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid", "https://img.freepik.com/free-photo/young-stylish-beautiful-woman-blue-dress-summer-fashion-trend-vacation-garden-tropical-hotel-terrace-smiling_285396-3879.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid", "https://img.freepik.com/free-photo/young-stylish-beautiful-woman-blue-dress-summer-fashion-trend-vacation-garden-tropical-hotel-terrace-smiling_285396-3854.jpg?ga=GA1.1.1671483150.1710689044&semt=ais_hybrid"]
+      }
+    ]
+  }
+  

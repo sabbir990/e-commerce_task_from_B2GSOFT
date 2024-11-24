@@ -7,8 +7,8 @@ export default function Banner() {
             className="w-full h-[50vh] md:h-[60vh] lg:h-[70vh] bg-cover bg-center flex items-center justify-center"
             style={{
                 backgroundImage: `url(/bannerBackground.jpg)`,
-                backgroundSize: 'cover', // Ensures the image covers the container without being cut off
-                backgroundPosition: 'center', // Keeps the center of the image visible
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
             }}
         >
             <div className="text-center text-white px-4">
