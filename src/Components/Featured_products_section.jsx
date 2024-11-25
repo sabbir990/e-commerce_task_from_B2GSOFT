@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { MdArrowBack } from "react-icons/md";
 import { IoArrowForwardSharp } from "react-icons/io5";
 import Product_card from './Product_card';
+import Link from 'next/link';
 
 export default function Featured_products_section() {
     const [items, setItems] = useState([]);
@@ -52,7 +53,7 @@ export default function Featured_products_section() {
                 )}
             </div>
             <div className='flex justify-center mt-3'>
-                <button className='px-4 py-3 bg-purple-500 text-white rounded-md'>See More</button>
+                <Link href={'/store'} className='px-4 py-3 bg-purple-500 text-white rounded-md'>See More</Link>
             </div>
         </div>
     )

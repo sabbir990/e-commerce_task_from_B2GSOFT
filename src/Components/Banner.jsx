@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react'
 import { MdArrowOutward } from "react-icons/md";
 
@@ -19,12 +20,12 @@ export default function Banner() {
                     Discover the Latest Trends in Sustainable Fashion
                 </p>
                 <div className='flex items-center justify-center'>
-                    <button className="bg-[#8F71E1] text-white px-5 py-3 rounded-badge">
+                    <Link href={'/store'} className="bg-[#8F71E1] text-white px-5 py-3 rounded-badge">
                         Shop Now
-                    </button>
-                    <button className="bg-[#8F71E1] text-white p-3 rounded-full">
+                    </Link>
+                    <Link href={'/store'} className="bg-[#8F71E1] text-white p-3 rounded-full">
                         <MdArrowOutward />
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

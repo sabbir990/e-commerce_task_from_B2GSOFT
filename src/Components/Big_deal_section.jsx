@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react'
 import { MdArrowBack } from "react-icons/md";
 import { IoArrowForwardSharp } from "react-icons/io5";
 import Big_deal_item_card from './Big_deal_item_card';
+import Link from 'next/link';
 
 export default function Big_deal_section() {
     const [items, setItems] = useState([]);
@@ -53,7 +54,7 @@ export default function Big_deal_section() {
                 }
             </div>
             <div className='flex justify-center mt-4'>
-                <button className='bg-purple-500 text-white px-3 py-2 rounded-md hover:bg-purple-600 transition'>See More</button>
+                <Link href={'/store'} className='bg-purple-500 text-white px-3 py-2 rounded-md hover:bg-purple-600 transition'>See More</Link>
             </div>
         </div>
     )

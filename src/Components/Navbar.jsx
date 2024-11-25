@@ -6,9 +6,12 @@ import { FaRegUser } from "react-icons/fa";
 import Logo from '../../public/logo.png'
 import Image from "next/image";
 import { IoIosSearch } from "react-icons/io";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
+    const pathname = usePathname()
 
     return (
         <nav className="shadow dark:bg-gray-800 bg-[#F5F3FF] lg:px-8 px-4 text-sm">
@@ -69,30 +72,30 @@ const Navbar = () => {
                             }`}
                     >
                         <div className="flex flex-col text-gray-600 capitalize dark:text-gray-300 lg:flex lg:px-16 lg:-mx-4 lg:flex-row lg:items-center">
-                            <a
-                                href="#"
-                                className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200"
+                            <Link
+                                href="/"
+                                className={`mt-2 transition-colors ${pathname === '/' && 'text-purple-500'} duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200`}
                             >
                                 Home
-                            </a>
-                            <a
-                                href="#"
-                                className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200"
+                            </Link>
+                            <Link
+                                href="/store"
+                                className={`mt-2 transition-colors ${pathname === '/store' && 'text-purple-500'} duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200`}
                             >
                                 Shop
-                            </a>
-                            <a
-                                href="#"
+                            </Link>
+                            <Link
+                                href="/deals"
                                 className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200"
                             >
                                 Deals
-                            </a>
-                            <a
-                                href="#"
+                            </Link>
+                            <Link
+                                href="new"
                                 className="mt-2 transition-colors duration-300 transform lg:mt-0 lg:mx-4 hover:text-gray-900 dark:hover:text-gray-200"
                             >
                                 What's new
-                            </a>
+                            </Link>
                         </div>
 
                         <div className="flex items-center space-x-4 mt-6 lg:mt-0 lg:-mx-2">
