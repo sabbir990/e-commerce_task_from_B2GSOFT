@@ -48,7 +48,7 @@ export default function Featured_products_section() {
                         return <Product_card product={product} key={index} />
                     })
                 ) : (
-                    <p className='text-center'>No Products Available</p>
+                    <p className=''>No Products Available</p>
                 )}
             </div>
             <div className='flex justify-center mt-3'>
